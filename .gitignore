@@ -38,4 +38,4 @@ build/
 ### VS Code ###
 .vscode/
 
-text2vec-base-chinese.onnx
+**.onnx

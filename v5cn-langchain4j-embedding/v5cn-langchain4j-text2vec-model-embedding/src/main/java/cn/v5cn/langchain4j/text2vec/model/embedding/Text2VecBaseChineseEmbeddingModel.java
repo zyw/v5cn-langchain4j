@@ -13,9 +13,9 @@ import dev.langchain4j.model.embedding.PoolingMode;
 public class Text2VecBaseChineseEmbeddingModel extends AbstractInProcessEmbeddingModel {
 
     private static final OnnxBertBiEncoder MODEL = loadFromJar(
-        "text2vec-base-chinese.onnx",
+            "text2vec-base-chinese.onnx",
         "tokenizer.json",
-        PoolingMode.MEAN
+            PoolingMode.MEAN
     );
 
     @Override

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.v5cn.langchain4j</groupId>
+        <artifactId>v5cn-langchain4j-embedding</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>v5cn-langchain4j-dmeta-embedding</artifactId>
+
+    <name>v5cn-langchain4j-dmeta-embedding</name>
+    <url>http://blog.v5cn.cn</url>
+    <description>
+        基于dmeta-embedding的embedding
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-embeddings</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

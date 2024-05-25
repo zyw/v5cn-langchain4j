@@ -13,7 +13,7 @@
   <url>http://blog.v5cn.cn</url>
   <modules>
     <module>v5cn-langchain4j-redis-chat-memory-store</module>
-    <module>v5cn-langchain4j-text2vec-model-embedding</module>
+    <module>v5cn-langchain4j-embedding</module>
   </modules>
 
   <properties>
